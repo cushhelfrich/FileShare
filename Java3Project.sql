@@ -94,6 +94,8 @@ CREATE TABLE `website` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
+INSERT INTO user (username, email, first_name, last_name, created, last_update, password, salt)
+VALUES ("prof", "prof@champlain.edu", "Gary", "Savard", NOW(), NOW(), "UvpVZ4GsBg9uAuDpUxlusdXFuteKwTmD1I08fJ4iIJQ=", "EB6fa+N5XwNeK/4shu84czQQ8t0n4Az/dK2lnT3fQSY=");
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
